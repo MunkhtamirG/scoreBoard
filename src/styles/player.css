@@ -1,0 +1,25 @@
+.player {
+  display: flex;
+  font-size: 1.2em;
+  border-bottom: solid 2px #eeeeee;
+  letter-spacing: 2px;
+}
+
+.player:last-of-type {
+  border-bottom-color: #d4caff;
+}
+
+.player-name:hover .remove-player {
+  visibility: visible;
+}
+
+.player-name,
+.counter-score {
+  color: #2f2366;
+}
+
+.player-name {
+  flex-grow: 1;
+  line-height: 3.5em;
+  padding-left: 10px;
+}
